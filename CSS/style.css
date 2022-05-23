@@ -1,0 +1,63 @@
+body {
+    background-color: gold;
+    height: fit-content;
+    width: fit-content;
+    /* top | right | bottom | left */
+    margin: 2px 1em 0 2em;
+    /* top | right | bottom | left */
+    padding: 5px 1em 0 2em;
+}
+
+.section-1-container  {
+    border: 2px solid #000;
+    height: 100px;
+    width: 500px;
+    margin: 2px 1em 1em 0em;
+    /* top | right | bottom | left */
+}
+
+.section-1-container > navbar {
+    
+}
+
+.section-2-container  {
+    border: 2px solid #000;
+    height: 100px;
+    width: 500px;
+    margin: 2px 1em 1em 0em;
+    /* top | right | bottom | left */
+}
+
+.section-3-container  {
+    border: 2px solid #000;
+    height: 100px;
+    width: 500px;
+    margin: 2px 1em 1em 0em;
+    /* top | right | bottom | left */
+}
+
+.section-4-container  {
+    border: 2px solid #000;
+    height: 100px;
+    width: 500px;
+    margin: 2px 1em 1em 0em;
+    /* top | right | bottom | left */
+}
+
+.section-5-container  {
+    border: 2px solid #000;
+    height: 100px;
+    width: 500px;
+    margin: 2px 1em 1em 0em;
+    /* top | right | bottom | left */
+}
+
+.section-6-container  {
+    border: 2px solid #000;
+    height: 100px;
+    width: 500px;
+    margin: 2px 1em 1em 0em;
+    /* top | right | bottom | left */
+}
+
+
