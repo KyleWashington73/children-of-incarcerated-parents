@@ -5,42 +5,40 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="CSS/style.css">
-    <title>Document</title>
+    <title>Children of Incarcerated Parents</title>
 </head>
+   
 <body>
-    <!-- section-1 -->
-    <div class="section-1-container">
-        <h1></h1>
-        <a href="link">home</a>
-        <a href="link">menu</a>
-        <a href="link">about</a>
-        <a href="link">contact</a>
+
+    <div class="topnav" id="myTopnav">
+      <a href="#home" class="active">Home</a>
+      <a href="#news">News</a>
+      <a href="#contact">Contact</a>
+      <a href="#about">About</a>
+      <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+        <i class="fa fa-bars"></i>
+      </a>
     </div>
-    <!-- section-2 -->
-    <div class="section-2-container">
-        <h2></h2> 
-        <p>2</p>
+    
+    <div style="padding-left:16px">
+      <h1>Children of Incarcerated Parents</h1>
+      <p>How Children Are Affected</p>
     </div>
-    <!-- section-3 -->
-    <div class="section-3-container">
-        <h3></h3> 
-        <p>3</p>
-    </div>
-    <!-- section-4 -->
-    <div class="section-4-container">
-        <h4></h4> 
-        <p>4</p>
-    </div>
-    <!-- section-5 -->
-    <div class="section-5-container">
-        <h5></h5> 
-        <p>5</p>
-    </div>
-<!-- section-6 -->
-<div class="section-6-container">
-    <h5></h5> 
-    <p>6</p>
-</div>
+    
+    <script>
+    function myFunction() {
+      var x = document.getElementById("myTopnav");
+      if (x.className === "topnav") {
+        x.className += " responsive";
+      } else {
+        x.className = "topnav";
+      }
+    }
+    </script>
+    
+    </body>
+    </html>
+    
 
 
 
@@ -54,17 +52,3 @@
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-<script src="./js/script.js"></script>    
-</body>
-</html>
