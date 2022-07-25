@@ -1,7 +1,7 @@
 body {
     margin: 0;
     font-family: Arial, Helvetica, sans-serif;
-    background-color: rgba(236, 218, 167, 0.808);
+    background-color: rgba(43, 40, 32, 0.808);
     text-align: center;
     height: 100%;
   }
@@ -131,4 +131,105 @@ body {
   display: table;
 }
 
+.even-columns {
+  display: flex;
+  background-color: white;
+  margin: 0px;
+  padding: 50px;
+}
 
+.even-columns > * {
+  flex-basis: 100%;
+}
+
+.even-columns-1 {
+  display: flex;
+  background-color: blue;
+  padding: 50px;
+  border: 2px solid black;
+}
+
+.even-columns-1 > * {
+  flex-basis: 100%;
+}
+
+.even-columns-2 {
+  display: flex;
+  background-color: blue;
+  padding: 40px;
+  border: 2px solid black; 
+}
+
+.even-columns-2 > * {
+  flex-basis: 100%;
+}
+
+ :root {
+  --ff-primary: basic-sans, sans-serif;
+  --clr-primary: red;
+  --clr-body: black;
+  --clr-bg: white;
+  --spacer: 1rem;
+ }
+
+ .tag {
+  color: white;
+ }
+
+
+
+/* On mouse-over, add a deeper shadow */
+ .card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+ .container {
+  padding: 0px 0px;
+}
+
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+p {
+  margin: 0;
+  padding: 0px;
+}
+
+.col-1 {
+  background-color: blue;
+
+}
+
+.card {
+  border: 1px solid #000;
+  height: 300px;
+  width: 270px;
+  margin: 50px;
+  display: flex;
+  
+}
+
+.img {
+  height: 100px;
+  width: 100px;
+}
+
+.img-1 {
+  height: 150px;
+  width: 150px;
+  margin-top: 50px;
+}
+
+.img-2 {
+  height: 200px;
+  width: 200px;
+}
+
+.footer {
+  background-color: blue;
+}
